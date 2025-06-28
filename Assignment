@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-int table(int x) //we pass one formal parameter 
+void table(int x)  //we pass one formal parameter 
 {
 	for (int n=1;n<=10;n++)
 	{
@@ -13,6 +13,6 @@ int main()
 	int a;
 	cout<<"Enter the number to display the table:";
 	cin>>a;
-	table(a); //here we call function with one actual parameter
+	table(a);  //here we call function with one actual parameter
 	return 0;
 }
